@@ -161,6 +161,11 @@
     }
     
 }
+@media(max-width:555px){
+ .end{
+     justify-content: space-between;
+ }
+}
 @media (max-width:496px){
     .usContacts{
         padding-left: 0;
@@ -173,10 +178,14 @@
         flex-wrap: wrap;
       justify-content: center;
     }
-    .contact{
-        padding-left: 15px;
-    }
+ 
    
+}
+@media(max-width:444px){
+    .end{
+        justify-content: center;
+        text-align: center;
+    }
 }
 @media(max-width:400px){
     .singForm__captcha-wrap{
@@ -189,4 +198,5 @@
             padding: 0;
         }
     }
+    
 }
