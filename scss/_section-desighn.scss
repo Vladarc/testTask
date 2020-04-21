@@ -1,0 +1,48 @@
+$designcolor:#cccece;
+
+
+.section__desighn{
+     padding: 110px 0 30px;
+
+    text-align: center;
+    &-title{
+    font-size: 6rem;
+    margin: 0;
+    line-height: 1;
+    color: $designcolor;
+    font-family: 'Bebas Neue',sans-serif;
+     text-transform: uppercase;
+   
+    }
+    &-text{
+        color: $designcolor;
+        font-size: 1.4rem;
+        padding: 25px 0 45px;
+       
+        text-align: center;
+        
+    }
+}
+.slide-dots{
+    padding-top: 140px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.slide-dot{
+    margin: 0 7px 0 0  ;
+    outline: none;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    &-active{
+        background-color: #2190c1;
+        border: 2px solid #f98561;
+    }
+    &:active{
+        background-color: #2190c1;
+        border: 2px solid #f98561;
+    }
+}
