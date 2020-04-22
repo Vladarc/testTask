@@ -172,6 +172,10 @@
         padding-left: 0;
        
     }
+    .col--1-4{
+        max-width: none;
+        text-align: center;
+    }
     .btn--form{
         transform: translate(0,0);
     }
@@ -180,7 +184,17 @@
       justify-content: center;
     }
  
-   
+    .section__desighn{
+    padding-top: 50px;
+    }
+    .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+        outline: none;
+        bottom: 0;
+        left: 0;
+      }
+      .swiper-wrapper{
+        padding-bottom: 80px;
+    }
 }
 @media(max-width:444px){
     .end{
@@ -199,5 +213,10 @@
             padding: 0;
         }
     }
-    
+    .column{
+    flex-wrap: wrap;
+    justify-content: center;
+        
+    }
+  
 }
