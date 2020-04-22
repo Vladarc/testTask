@@ -115,14 +115,7 @@ justify-content: center;
             border-width: 0 5.5px 7px 5.5px;
             border-color: transparent transparent #f98561 transparent
         }
-        /* &:hover{
-            border-color: #f98561;
-            transition:  border-color .3s ease-in-out;
-        }
-        &:hover::before{
-            opacity: 1;
-            transition: opacity .3s ease-in-out;
-        } */
+           
         &--active{
             border-color: #f98561;
             &::after{

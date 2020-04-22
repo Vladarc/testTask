@@ -201,6 +201,17 @@
         justify-content: center;
         text-align: center;
     }
+    .column{
+        flex-wrap: wrap;
+        justify-content: space-around;
+            
+    }
+        .header__logo{
+         margin: 0 auto;
+        }
+        .search__field{
+            margin-left: 5px;
+        }
 }
 @media(max-width:400px){
     .singForm__captcha-wrap{
@@ -213,10 +224,6 @@
             padding: 0;
         }
     }
-    .column{
-    flex-wrap: wrap;
-    justify-content: center;
-        
-    }
+   
   
 }

@@ -8,14 +8,10 @@ const menu = document.querySelector('.header__burger'),
 
 
 
-/* persons__item.addEventListener('mouseover',function(event){
-  this.classList.add('persons__item--active')
-
-}) */
 
 persons__item.forEach(el => el.addEventListener('mouseover',function (event) {
- persons__item.forEach(el => el.classList.remove('persons__item--active')) 
- this.classList.add('persons__item--active')
+    persons__item.forEach(el => el.classList.remove('persons__item--active')) 
+        this.classList.add('persons__item--active')
 }))
  search.addEventListener('click', event => {
  const {target} = event;
@@ -29,12 +25,12 @@ persons__item.forEach(el => el.addEventListener('mouseover',function (event) {
 
 }) 
 menu.addEventListener('click', event => {
-
-   overlay.classList.add("overlay-prime")
+    overlay.classList.add("overlay-prime")
 })
+   
 overlay.addEventListener('click',event => {
     const{target}=event
-    if(target.classList.contains('fas__exit')){
-        overlay.classList.remove("overlay-prime")
+        if(target.classList.contains('fas__exit')){
+          overlay.classList.remove("overlay-prime")
     }
 })
